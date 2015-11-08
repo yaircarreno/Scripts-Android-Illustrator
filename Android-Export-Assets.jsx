@@ -63,7 +63,7 @@ function saveToRes(scaleTo, folderName, lowerCase) {
 		options = new ExportOptionsPNG24();
 		options.antiAliasing = true;
 		options.transparency = true;
-		options.artBoardClipping = true;
+		options.artBoardClipping = false;
 		options.verticalScale = scaleTo;
 		options.horizontalScale = scaleTo;
 		
